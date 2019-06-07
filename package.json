@@ -1,0 +1,23 @@
+{
+  "name": "bahmni-commons-patient",
+  "version": "0.0.1",
+  "description": "Module carved out from bahmniapps common/patients.",
+  "main": "init.js",
+  "scripts": {
+    "bundle": "webpack --progress --colors --verbose",
+    "dev": "webpack --progress --colors --watch"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.6.0",
+    "html-loader": "^0.5.5",
+    "ngtemplate-loader": "^2.0.1",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.6"
+  }
+}
