@@ -1,11 +1,12 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/init.js',
+    entry: {
+        "bahmni-patient-commons": path.join(__dirname, 'bahmni-patient-commons/init.js')
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bahmni-patient-commons.js',
-        library: 'bahmniPatientCommons',
+        filename: '[name].js',
         libraryTarget: 'umd',
     },
     module: {
@@ -19,8 +20,7 @@ module.exports = {
             {
                 test: /\.html$/,
                 use: [
-                    // { loader: 'ngtemplate-loader?relativeTo=' + (path.resolve(__dirname, './src')) }
-                    {loader: 'html-loader'}
+                    { loader: 'html-loader' }
                 ]
             }
         ]

@@ -1,13 +1,11 @@
 {
-  "name": "bahmni-commons-patient",
+  "name": "bahmniapps-commons",
   "version": "0.0.1",
-  "description": "Module carved out from bahmniapps common/patients.",
-  "main": "init.js",
+  "description": "Common Modules carved out from bahmniapps.",
   "scripts": {
-    "bundle": "webpack --progress --colors --verbose",
-    "dev": "webpack --progress --colors --watch"
+    "bundle": "webpack --progress --colors"
   },
-  "author": "",
+  "author": "bahmni@thoughtworks.com",
   "license": "Apache-2.0",
   "devDependencies": {
     "babel-cli": "^6.26.0",
