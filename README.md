@@ -2,13 +2,39 @@
 This repository contains extracted common modules form [openmrs-module-bahmniapps](https://github.com/Bahmni/openmrs-module-bahmniapps).
 
 ## Setup 
-* Clone the repository and `cd` into the folder.
-* Run `npm install`
-* Run `npm run bundle`
+```
+git clone git@github.com:mddubey/bahmniapps-commons.git
+cd bahmniapps-commons
+npm install
+npm run bundle
+```
+Above steps will generate a dist folder with a output js file for each module.
 
-Above steps will produce the `dist/bahmni-patient-commons.js`. As of now it has been tested by copying manually 
+## Adding a new module
+Below is the strucutre of project:
+<pre>
+|-- module-1
+    |-- init.js
+    |-- views
+    |-- directives
+    |-- filters
+    |-- components
+    |-- services
+|-- module-2
+    |-- init.js
+    ....
+|.......	
+|-- module-n
+    |-- init.js
+    ....
+|-- dist
+|-- package.json
+|-- webpack.config.json
+</pre>
+* All modules are present on the root of the project.
+* By convention, every module should have an `init.js` file. This would be maintioned in the `entry` for the `webpack.config.js`.
+* The key for the `entry` will be used to generate the bundled file.
 
 ## ToDo
 * Publishing to NPM.
-* Setup a folder structure. Something like all top level folders can be libraries of it's own. E.g: PatientCommon, PatientSearchCommon, ConceptSearchCommon etc.
 * How to make `src/header/view/header.html` consumable?
