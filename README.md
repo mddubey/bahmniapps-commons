@@ -1,6 +1,11 @@
 # bahmniapps-commons
 This repository contains extracted common modules form [openmrs-module-bahmniapps](https://github.com/Bahmni/openmrs-module-bahmniapps).
 
+# Install
+```
+npm i bahmniapps-commons
+```
+
 ## Setup 
 ```
 git clone git@github.com:mddubey/bahmniapps-commons.git
@@ -34,7 +39,3 @@ Below is the strucutre of project:
 * All modules are present on the root of the project.
 * By convention, every module should have an `init.js` file. This would be maintioned in the `entry` for the `webpack.config.js`.
 * The key for the `entry` will be used to generate the bundled file.
-
-## ToDo
-* Publishing to NPM.
-* How to make `src/header/view/header.html` consumable?
