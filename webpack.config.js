@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
     entry: {
         "bahmni-patient-commons": path.join(__dirname, 'bahmni-patient-commons/init.js'),
-        "patient-profile": path.join(__dirname, 'patient-profile/init.js'),
+        "displaycontrols": path.join(__dirname, 'displaycontrols/init.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
