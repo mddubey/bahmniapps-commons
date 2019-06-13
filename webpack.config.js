@@ -4,6 +4,7 @@ module.exports = {
     entry: {
         "bahmni-patient-commons": path.join(__dirname, 'bahmni-patient-commons/init.js'),
         "displaycontrols": path.join(__dirname, 'displaycontrols/init.js'),
+        "authentication": path.join(__dirname, 'authentication/init.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
