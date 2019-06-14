@@ -1,5 +1,4 @@
 'use strict';
-var templateUrl = require('ngtemplate-loader!../views/patientSummary.html');
 
 angular.module('bahmni.common.patient').directive('patientSummary', function () {
     var link = function ($scope) {
@@ -17,7 +16,7 @@ angular.module('bahmni.common.patient').directive('patientSummary', function () 
 
     return {
         restrict: 'E',
-        templateUrl: templateUrl,
+        template: require('../views/patientSummary.html'),
         link: link,
         required: 'patient',
         scope: {

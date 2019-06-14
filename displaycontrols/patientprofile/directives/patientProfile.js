@@ -1,5 +1,4 @@
 'use strict';
-var patietProfileTemplate = require('ngtemplate-loader!../views/patientProfile.html');
 
 (function () {
     var getAddress = function ($scope) {
@@ -99,7 +98,7 @@ var patietProfileTemplate = require('ngtemplate-loader!../views/patientProfile.h
                         visitUuid: "@",
                         config: "="
                     },
-                    templateUrl: patietProfileTemplate
+                    template: require('../views/patientProfile.html')
                 };
             }]);
 })();
