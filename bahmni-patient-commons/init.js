@@ -1,4 +1,4 @@
-export default angular.module('bahmni.common.patient', []);
+angular.module('bahmni.common.patient', []);
 
 require ("./directives/eventStopPropagation");
 require ("./directives/patientSummary");
