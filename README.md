@@ -1,10 +1,20 @@
 # bahmniapps-commons
 This repository contains extracted common modules form [openmrs-module-bahmniapps](https://github.com/Bahmni/openmrs-module-bahmniapps).
 
-### Install
+## User Documentation
+
+### Installation
 ```
-npm i bahmniapps-commons
+npm install bahmniapps-commons
 ```
+
+### Template Cache by modules
+| Module | Key in TemplateCache | Template Path |
+| ------ | :-------------------:| ------------ |
+| ui-helper | ui-helper-error | ui-helper/error.html |
+| ui-helper | ui-helper-header | ui-helper/header.html |
+| ui-helper | ui-helper-messages | ui-helper/messages.html |
+| ui-helper | ui-helper-save-confirmation | ui-helper/views/saveConfirmation.html |
 
 ## Developer Documentation
 
