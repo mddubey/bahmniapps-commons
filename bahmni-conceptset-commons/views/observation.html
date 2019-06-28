@@ -65,7 +65,7 @@
                         <span class="details" ng-bind-html="observation.previous.value"></span>
                     </div>
                     <div ng-switch-when="html5InputDataType">
-                        <div ng-include src="'../views/observationDataTypes/html5DataType.html'"></div>
+                        <div ng-include src="'template-html5-data-type'"></div>
                     </div>
 
                     <div ng-switch-when="text" ng-if="::!observation.isConciseText()">
@@ -193,7 +193,7 @@
                     </div>
 
                     <div ng-switch-when="html5InputDataType">
-                        <div ng-include src="'../views/observationDataTypes/html5DataType.html'"></div>
+                        <div ng-include src="'template-html5-data-type'"></div>
                     </div>
 
                     <div ng-switch-when="text" ng-if="::!observation.isConciseText()">
