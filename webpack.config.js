@@ -11,6 +11,7 @@ module.exports = {
         "bahmni-appframework-commons": path.join(__dirname, 'bahmni-appframework-commons/init.js'),
         "bahmni-domain-commons": path.join(__dirname, 'bahmni-domain-commons/init.js'),
         "bahmni-conceptset-commons": path.join(__dirname, 'bahmni-conceptset-commons/init.js'),
+        "bahmni-patientsearch-commons": path.join(__dirname, 'bahmni-patientsearch-commons/init.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
