@@ -13,6 +13,7 @@ module.exports = {
         "bahmni-conceptset-commons": path.join(__dirname, 'bahmni-conceptset-commons/init.js'),
         "bahmni-patientsearch-commons": path.join(__dirname, 'bahmni-patientsearch-commons/init.js'),
         "bahmni-logging-commons": path.join(__dirname, 'bahmni-logging-commons/init.js'),
+        "bahmni-obs-commons": path.join(__dirname, 'bahmni-obs-commons/init.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -34,6 +35,13 @@ module.exports = {
                 use: [
                     { loader: 'babel-loader' }
                 ]
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg)$/i, 
+                loader: "url-loader",
+                options: {
+                    limit: Infinity // everything
+                  }
             },
             {
                 test: /\.html$/,
