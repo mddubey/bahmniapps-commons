@@ -7,3 +7,4 @@ angular.module('bahmni.common.displaycontrol', []);
 
 require("./patientprofile/init")
 require("./dashboard/init")
+require("./observation/init")
