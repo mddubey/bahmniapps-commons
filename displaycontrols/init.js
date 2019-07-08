@@ -12,3 +12,4 @@ require("./disposition/init");
 require("./admissiondetails/init");
 require("./diagnosis/init");
 require("./navigationlinks/init");
+require("./custom/init")
