@@ -15,6 +15,7 @@ module.exports = {
         "bahmni-logging-commons": path.join(__dirname, 'bahmni-logging-commons/init.js'),
         "bahmni-obs-commons": path.join(__dirname, 'bahmni-obs-commons/init.js'),
         "bahmni-models-commons": path.join(__dirname, 'bahmni-models-commons/init.js'),
+        "bahmni-i18n-commons": path.join(__dirname, 'bahmni-i18n-commons/init.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
