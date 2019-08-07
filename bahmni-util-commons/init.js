@@ -1,6 +1,6 @@
 'use strict';
 
-global.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.Common = Bahmni.Common || {};
 Bahmni.Common.Util = Bahmni.Common.Util || {};
 

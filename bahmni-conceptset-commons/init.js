@@ -1,5 +1,5 @@
 'use strict';
-window.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.ConceptSet = Bahmni.ConceptSet || {};
 Bahmni.ConceptSet.FormConditions = Bahmni.ConceptSet.FormConditions || {};
 

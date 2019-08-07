@@ -1,6 +1,6 @@
 angular.module('bahmni.common.appFramework', ['authentication']);
 
-window.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.Common = Bahmni.Common || {};
 Bahmni.Common.AppFramework = Bahmni.Common.AppFramework || {};
 

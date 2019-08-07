@@ -1,4 +1,4 @@
-global.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.Common = Bahmni.Common || {};
 Bahmni.Common.Obs = Bahmni.Common.Obs || {};
 

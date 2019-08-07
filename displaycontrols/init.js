@@ -1,5 +1,5 @@
 'use strict';
-window.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.Common = Bahmni.Common || {};
 Bahmni.Common.DisplayControl = Bahmni.Common.DisplayControl || {};
 

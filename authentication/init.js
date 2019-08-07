@@ -1,5 +1,5 @@
 'use strict';
-window.Bahmni = Bahmni || {};
+window.Bahmni = window.Bahmni || {};
 Bahmni.Auth = Bahmni.Auth || {};
 
 angular.module('authentication', ['ui.router']);
