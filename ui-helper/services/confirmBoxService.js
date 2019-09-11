@@ -12,7 +12,7 @@ angular.module('bahmni.common.uiHelper')
             confirmBoxScope.scope = config.scope;
             confirmBoxScope.actions = config.actions;
             dialog = ngDialog.open({
-                template: '../common/ui-helper/views/confirmBox.html',
+                templateUrl: 'ui-helper-confirm-box',
                 scope: confirmBoxScope,
                 className: config.className || 'ngdialog-theme-default'
             });

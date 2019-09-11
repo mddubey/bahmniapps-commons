@@ -5,6 +5,7 @@ angular
         $templateCache.put('ui-helper-header', require("./header.html"));
         $templateCache.put('ui-helper-messages', require("./messages.html"));
         $templateCache.put('ui-helper-save-confirmation', require("./views/saveConfirmation.html"));
+        $templateCache.put('ui-helper-confirm-box', require("./views/confirmBox.html"));
     });
 
 require("./printer")
